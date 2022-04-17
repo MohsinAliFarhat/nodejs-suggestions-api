@@ -19,6 +19,7 @@ router.get('', async (req, res, next) => {
     searchObj.sort = { $sort: { distance: 1 } }
   }
 
+  //PipeLine Preparation for custom results
   const pipeline = [
     {
       $match: { name: searchObj.name }
