@@ -1,10 +1,10 @@
 # nodejs-suggestions-api
-###### How to run the project
+##### How to run the project
 1. docker-compose up
 2. npm i
 3. node server.js
 4. ```Sample GET request : localhost:5000/suggestions?q=lond&latitude=43.70011&longitude=-79.4163&radius=300&sort=distance```
-
+##### Sample Response for above GET request
 ```
 {
     "suggestions": [
