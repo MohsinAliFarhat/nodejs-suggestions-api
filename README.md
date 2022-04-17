@@ -35,3 +35,14 @@
 }
 ```
 
+# Original Task
+Question
+Design a REST API endpoint that provides autocomplete suggestions for highly populated cities
+Request Description:
+GET /suggestions
+Query Parameters:
+q, eg, search term, which can be complete or partial
+coordinate, [latitude,longitude] , to filter for longitude and latitude
+radius, to filter by radius in km
+sort, either by name or distance [ascending]
+
